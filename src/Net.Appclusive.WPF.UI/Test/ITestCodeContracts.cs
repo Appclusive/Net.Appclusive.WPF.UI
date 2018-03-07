@@ -14,16 +14,13 @@
  * limitations under the License.
  */
 
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Diagnostics.Contracts;
 
-namespace Net.Appclusive.WPF.UI.Tests
+namespace Net.Appclusive.WPF.UI.Test
 {
-    [TestClass]
-    public class UnitTest1
+    [ContractClass(typeof(ContractClassForITestCodeContracts))]
+    internal interface ITestCodeContracts
     {
-        [TestMethod]
-        public void TestMethod1()
-        {
-        }
+        bool Test(bool itMustBeTrue);
     }
 }
