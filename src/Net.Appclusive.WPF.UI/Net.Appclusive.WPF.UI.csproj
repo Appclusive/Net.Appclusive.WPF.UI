@@ -157,6 +157,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="..\CommonAssemblySettings.cs">
+      <Link>Properties\CommonAssemblySettings.cs</Link>
+    </Compile>
     <Compile Include="Test\ContractClassForITestCodeContracts.cs" />
     <Compile Include="Test\ITestCodeContracts.cs" />
     <Page Include="MainWindow.xaml">

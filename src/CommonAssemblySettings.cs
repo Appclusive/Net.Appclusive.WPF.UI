@@ -20,8 +20,15 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Net.Appclusive.WPF.UI.Tests")]
-[assembly: AssemblyProduct("Net.Appclusive.WPF.UI.Tests")]
+[assembly: AssemblyDescription("WPF UI for the Appclusive Blueprint Modelling and Automation Engine")]
+[assembly: AssemblyCompany("d-fens GmbH")]
+[assembly: AssemblyCopyright("Copyright © 2013-2018 d-fens GmbH")]
+[assembly: AssemblyTrademark("The d-fens logo is a registered trademark in the European Union and/or other countries. Appclusive is a registered trademark in Switzerland and/or other countries.")]
+[assembly: AssemblyCulture("")]
 
-// The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("8f421f4d-ec08-44fb-a262-3cc6b5ef0c9e")]
+// Setting ComVisible to false makes the types in this assembly not visible 
+// to COM components.  If you need to access a type in this assembly from 
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(false)]
+
+[assembly: AssemblyVersion("4.0.0.0")]

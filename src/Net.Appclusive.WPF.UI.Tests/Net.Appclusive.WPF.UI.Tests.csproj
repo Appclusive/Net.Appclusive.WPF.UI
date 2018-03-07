@@ -141,6 +141,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="..\CommonAssemblySettings.cs">
+      <Link>Properties\CommonAssemblySettings.cs</Link>
+    </Compile>
     <Compile Include="Test\TestCodeContracts.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
