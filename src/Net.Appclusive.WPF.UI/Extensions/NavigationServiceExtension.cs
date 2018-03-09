@@ -22,7 +22,6 @@ namespace Net.Appclusive.WPF.UI.Extensions
 {
     public static class NavigationServiceExtension
     {
-        // DFTODO - check, if pages directory has to be adjusted
         private const string PAGES_DIRECTORY = "Pages/";
         private const string PAGE_SUFFIX = ".xaml";
 
