@@ -18,7 +18,6 @@ using System;
 using System.Configuration;
 using System.Diagnostics;
 using System.Diagnostics.Contracts;
-using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Navigation;
