@@ -14,16 +14,16 @@
 * limitations under the License.
 */
 
-using MahApps.Metro.Controls;
+using System.Windows.Controls;
 
-namespace Net.Appclusive.WPF.UI
+namespace Net.Appclusive.WPF.UI.Pages
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Home.xaml
     /// </summary>
-    public partial class MainWindow : MetroWindow
+    public partial class Home : Page
     {
-        public MainWindow()
+        public Home()
         {
             InitializeComponent();
         }

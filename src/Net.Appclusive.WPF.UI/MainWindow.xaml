@@ -1,12 +1,25 @@
-﻿<Window x:Class="Net.Appclusive.WPF.UI.MainWindow"
+﻿<controls:MetroWindow x:Class="Net.Appclusive.WPF.UI.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Net.Appclusive.WPF.UI"
+        xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:p="clr-namespace:Net.Appclusive.WPF.UI.Properties"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
         
-    </Grid>
-</Window>
+        Title="{x:Static p:Resources.Window_MainWindow_Title}"
+        WindowState="Maximized"
+        Icon="Resources/logo-apc.png"
+        ShowIconOnTitleBar="True" >
+
+    <controls:MetroWindow.RightWindowCommands>
+        <controls:WindowCommands>
+            <!-- DFTODO - add commands here, otherwise delete RightWindowCommands tag -->
+        </controls:WindowCommands>
+    </controls:MetroWindow.RightWindowCommands>
+
+    <DockPanel>
+        <Frame x:Name="PageFrame" Source="Pages/Home.xaml" NavigationUIVisibility="Hidden" HorizontalAlignment="Stretch" />
+    </DockPanel>
+
+</controls:MetroWindow>

@@ -14,18 +14,25 @@
 * limitations under the License.
 */
 
-using MahApps.Metro.Controls;
+using System.Windows;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Telerik.JustMock;
 
-namespace Net.Appclusive.WPF.UI
+namespace Net.Appclusive.WPF.UI.Tests.ViewModels
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : MetroWindow
+    [TestClass]
+    public class ViewModelTestBase
     {
-        public MainWindow()
+        protected static App App;
+
+        [AssemblyInitialize]
+        public static void AssemblyInitialize(TestContext context)
         {
-            InitializeComponent();
+            App = Mock.Create<App>(Behavior.CallOriginal);
+
+            Mock.SetupStatic(typeof(Application));
+            Mock.Arrange(() => Application.Current)
+                .Returns(App);
         }
     }
 }

@@ -117,13 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ArbitraryEnum_Value1" xml:space="preserve">
-    <value>ArbitraryValue1</value>
+  <data name="App_CurrentDomain_UnhandledException__UnhandledExceptionOccurred" xml:space="preserve">
+    <value>An unhandled exception occurred.</value>
   </data>
-  <data name="Page_Home_Title" xml:space="preserve">
-    <value>Home</value>
+  <data name="App_OnExit__START" xml:space="preserve">
+    <value>Exit Appclusive WPF UI ...</value>
   </data>
-  <data name="Window_MainWindow_Title" xml:space="preserve">
-    <value>Appclusive WPF UI</value>
+  <data name="App_OnExit__SUCCEEDED" xml:space="preserve">
+    <value>Exit Appclusive WPF UI SUCCEEDED.</value>
+  </data>
+  <data name="App_OnStartup__Initialise_Configuration" xml:space="preserve">
+    <value>Appclusive WPF UI configuration SUCCEEDED.</value>
+  </data>
+  <data name="App_OnStartup__Initialise_START" xml:space="preserve">
+    <value>Appclusive WPF UI initialisation ...</value>
+  </data>
+  <data name="App_OnStartup__Initialise_SUCCEEDED" xml:space="preserve">
+    <value>Appclusive WPF UI initialisation SUCCEEDED.</value>
   </data>
 </root>

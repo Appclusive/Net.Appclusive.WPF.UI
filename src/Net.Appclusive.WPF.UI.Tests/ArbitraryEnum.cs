@@ -14,18 +14,19 @@
 * limitations under the License.
 */
 
-using MahApps.Metro.Controls;
+using Net.Appclusive.WPF.UI.Attributes;
+using Net.Appclusive.WPF.UI.Converters;
+using System.ComponentModel;
 
-namespace Net.Appclusive.WPF.UI
+namespace Net.Appclusive.WPF.UI.Tests
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : MetroWindow
+    [TypeConverter(typeof(EnumTranslationCoverter))]
+    public enum ArbitraryEnum
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+        [ResourceName("ArbitraryEnum_Value1")]
+        Value1,
+        [ResourceName("ArbitraryEnum_Value2")]
+        Value2,
+        Value3
     }
 }
