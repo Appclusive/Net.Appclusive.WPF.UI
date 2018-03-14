@@ -19,9 +19,8 @@
         <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Right">
             <!-- DFTODO - add buttons -->
         </StackPanel>
-        <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Grid VerticalAlignment="Center" HorizontalAlignment="Center" FocusManager.FocusedElement="{Binding ElementName=TextBoxUsername}">
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
@@ -31,10 +30,12 @@
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
 
-            <Label Grid.Row="0" Grid.Column="0" Content="tralala"/>
-            <Label Grid.Row="1" Grid.Column="0" Content="tralala2"/>
-            <Label Grid.Row="2" Grid.Column="0" Content="tralala3"/>
-            <Label Grid.Row="3" Grid.Column="0" Content="tralala4"/>
+            <Label Grid.Row="0" Grid.Column="0" Content="{x:Static p:Resources.Page_Home_Label__Domain}"/>
+            <Label Grid.Row="1" Grid.Column="0" Content="{x:Static p:Resources.Page_Home_Label__Username}"/>
+            <Label Grid.Row="2" Grid.Column="0" Content="{x:Static p:Resources.Page_Home_Label__Password}"/>
+            <TextBox Name="TextBoxDomain" Grid.Row="0" Grid.Column ="1" Text="{Binding Domain, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}" />
+            <TextBox Name="TextBoxUsername" Grid.Row="1" Grid.Column ="1" Text="{Binding Username, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}" />
+            <PasswordBox Name="TextBoxPassword" Grid.Row="2" Grid.Column ="1" />
         </Grid>
     </DockPanel>
 </Page>
