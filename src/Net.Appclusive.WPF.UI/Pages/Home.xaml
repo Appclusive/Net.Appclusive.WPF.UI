@@ -17,7 +17,7 @@
 
     <DockPanel>
         <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Right">
-            <!-- DFTODO - add buttons -->
+            <Button Name="ArbitraryButton"></Button>
         </StackPanel>
         <Grid VerticalAlignment="Center" HorizontalAlignment="Center" FocusManager.FocusedElement="{Binding ElementName=TextBoxUsername}">
             <Grid.RowDefinitions>
