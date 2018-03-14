@@ -21,6 +21,8 @@ namespace Net.Appclusive.WPF.UI.Security
     public class ApplicationConfigurationSection : ConfigurationSection
     {
         internal const string SECTION_NAME = "applicationConfiguration";
+
+        private const string DEFAULT_DOMAIN_ATTRIBUTE_NAME = "defaultDomain";
         private const string APPCLUSIVE_BASE_URI_ATTRIBUTE_NAME = "appclusiveBaseUri";
 
         //<configuration>
@@ -37,9 +39,22 @@ namespace Net.Appclusive.WPF.UI.Security
         //  </configSections>
 
         //  <!-- Configuration section settings area. -->
-        //  <applicationConfiguration appclusiveBaseUri="https://example.com/api />
+        //  <applicationConfiguration defaultDomain="dfch" appclusiveBaseUri="https://example.com/api />
 
         //</configuration>
+
+        [ConfigurationProperty(DEFAULT_DOMAIN_ATTRIBUTE_NAME, IsRequired = true)]
+        public string DefaultDomain
+        {
+            get
+            {
+                return (string)this[DEFAULT_DOMAIN_ATTRIBUTE_NAME];
+            }
+            set
+            {
+                this[DEFAULT_DOMAIN_ATTRIBUTE_NAME] = value;
+            }
+        }
 
         [ConfigurationProperty(APPCLUSIVE_BASE_URI_ATTRIBUTE_NAME, IsRequired = true)]
         public string AppclusiveBaseUri
