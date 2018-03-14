@@ -88,7 +88,7 @@ namespace Net.Appclusive.WPF.UI {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Appclusive WPF UI configuration SUCCEEDED..
+        ///   Looks up a localized string similar to Appclusive WPF UI configuration (DefaultDomain: &apos;{0}&apos;; AppclusiveApiBaseUri: &apos;{1}&apos;) SUCCEEDED..
         /// </summary>
         internal static string App_OnStartup__Initialise_Configuration {
             get {
