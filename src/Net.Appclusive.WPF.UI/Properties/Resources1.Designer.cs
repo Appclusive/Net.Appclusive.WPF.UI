@@ -70,6 +70,59 @@ namespace Net.Appclusive.WPF.UI.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to WPF UI for the Appclusive Blueprint Modelling and Automation Engine
+        ///
+        ///Version: {0}
+        ///
+        ///
+        ///d-fens GmbH
+        ///General-Guisan-Strasse 6
+        ///CH-6300 Zug
+        ///Switzerland.
+        /// </summary>
+        internal static string Dialog_About__Message {
+            get {
+                return ResourceManager.GetString("Dialog_About__Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Über.
+        /// </summary>
+        internal static string Dialog_About__Title {
+            get {
+                return ResourceManager.GetString("Dialog_About__Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Domain.
+        /// </summary>
+        internal static string Page_Home_Label__Domain {
+            get {
+                return ResourceManager.GetString("Page_Home_Label__Domain", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Passwort.
+        /// </summary>
+        internal static string Page_Home_Label__Password {
+            get {
+                return ResourceManager.GetString("Page_Home_Label__Password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Username.
+        /// </summary>
+        internal static string Page_Home_Label__Username {
+            get {
+                return ResourceManager.GetString("Page_Home_Label__Username", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Home.
         /// </summary>
         internal static string Page_Home_Title {

@@ -120,8 +120,35 @@
   <data name="ArbitraryEnum_Value1" xml:space="preserve">
     <value>ArbitraryValue1</value>
   </data>
+  <data name="Dialog_About__Message" xml:space="preserve">
+    <value>WPF UI for the Appclusive Blueprint Modelling and Automation Engine
+
+Version: {0}
+
+
+d-fens GmbH
+General-Guisan-Strasse 6
+CH-6300 Zug
+Switzerland</value>
+    <comment>0: Assembly version</comment>
+  </data>
+  <data name="Dialog_About__Title" xml:space="preserve">
+    <value>Über</value>
+  </data>
+  <data name="Page_Home_Label__Domain" xml:space="preserve">
+    <value>Domain</value>
+  </data>
+  <data name="Page_Home_Label__Password" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="Page_Home_Label__Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
   <data name="Page_Home_Title" xml:space="preserve">
     <value>Home</value>
+  </data>
+  <data name="Window_MainWindow_Button__About" xml:space="preserve">
+    <value>Über</value>
   </data>
   <data name="Window_MainWindow_Title" xml:space="preserve">
     <value>Appclusive WPF UI</value>

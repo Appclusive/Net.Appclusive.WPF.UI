@@ -14,7 +14,9 @@
 * limitations under the License.
 */
 
+using System.Windows;
 using MahApps.Metro.Controls;
+using MahApps.Metro.Controls.Dialogs;
 
 namespace Net.Appclusive.WPF.UI
 {
@@ -26,6 +28,12 @@ namespace Net.Appclusive.WPF.UI
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void OnButtonAboutClick(object sender, RoutedEventArgs e)
+        {
+            var aboutText = string.Format(Properties.Resources.Dialog_About__Message, typeof(MainWindow).Assembly.GetName().Version);
+            this.ShowMessageAsync(Properties.Resources.Dialog_About__Title, aboutText);
         }
     }
 }

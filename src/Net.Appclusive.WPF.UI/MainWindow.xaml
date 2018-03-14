@@ -14,7 +14,7 @@
 
     <controls:MetroWindow.RightWindowCommands>
         <controls:WindowCommands>
-            <!-- DFTODO - add commands here, otherwise delete RightWindowCommands tag -->
+            <Button Name="ButtonAbout" Content="{x:Static p:Resources.Window_MainWindow_Button__About}" Click="OnButtonAboutClick" />
         </controls:WindowCommands>
     </controls:MetroWindow.RightWindowCommands>
 
