@@ -10,7 +10,7 @@
         Title="{x:Static p:Resources.Window_MainWindow_Title}"
         WindowState="Maximized"
         Icon="Resources/logo-apc.png"
-        ShowIconOnTitleBar="True" >
+        ShowIconOnTitleBar="True">
 
     <controls:MetroWindow.RightWindowCommands>
         <controls:WindowCommands>
