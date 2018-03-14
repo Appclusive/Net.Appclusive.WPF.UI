@@ -132,6 +132,15 @@ namespace Net.Appclusive.WPF.UI.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Über.
+        /// </summary>
+        internal static string Window_MainWindow_Button__About {
+            get {
+                return ResourceManager.GetString("Window_MainWindow_Button__About", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Appclusive WPF UI.
         /// </summary>
         internal static string Window_MainWindow_Title {
