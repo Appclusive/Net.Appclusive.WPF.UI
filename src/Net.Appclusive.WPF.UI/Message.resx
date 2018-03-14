@@ -127,7 +127,9 @@
     <value>Exit Appclusive WPF UI SUCCEEDED.</value>
   </data>
   <data name="App_OnStartup__Initialise_Configuration" xml:space="preserve">
-    <value>Appclusive WPF UI configuration SUCCEEDED.</value>
+    <value>Appclusive WPF UI configuration (DefaultDomain: '{0}'; AppclusiveApiBaseUri: '{1}') SUCCEEDED.</value>
+    <comment>0: DefaultDomain
+1: AppclusiveApiBaseUri</comment>
   </data>
   <data name="App_OnStartup__Initialise_START" xml:space="preserve">
     <value>Appclusive WPF UI initialisation ...</value>

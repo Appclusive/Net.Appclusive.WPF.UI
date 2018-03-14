@@ -33,6 +33,9 @@ namespace Net.Appclusive.WPF.UI
     /// </summary>
     public partial class App : Application
     {
+        public string DefaultDomain { get; private set; }
+        public string AppclusiveApiBaseUri { get; private set; }
+
         internal NavigationService Navigator { get; set; }
 
         private readonly TraceSource traceSource = Logger.Get(Logging.TraceSourceName.APPCLUSIVE_WPF_UI);
@@ -50,8 +53,10 @@ namespace Net.Appclusive.WPF.UI
 
             var appConfigSection = ConfigurationManager.GetSection(ApplicationConfigurationSection.SECTION_NAME) as ApplicationConfigurationSection;
             Contract.Assert(null != appConfigSection);
+            DefaultDomain = appConfigSection.DefaultDomain;
+            AppclusiveApiBaseUri = appConfigSection.AppclusiveBaseUri;
 
-            traceSource.TraceEvent(TraceEventType.Information, (int)Logging.EventId.Default, Message.App_OnStartup__Initialise_Configuration);
+            traceSource.TraceEvent(TraceEventType.Information, (int)Logging.EventId.Default, Message.App_OnStartup__Initialise_Configuration, DefaultDomain, AppclusiveApiBaseUri);
             traceSource.TraceEvent(TraceEventType.Information, (int)Logging.EventId.Stop, Message.App_OnStartup__Initialise_SUCCEEDED);
         }
 
