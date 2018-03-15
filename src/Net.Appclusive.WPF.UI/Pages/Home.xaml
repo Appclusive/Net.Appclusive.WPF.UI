@@ -5,8 +5,6 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:vm="clr-namespace:Net.Appclusive.WPF.UI.ViewModels"
       xmlns:p="clr-namespace:Net.Appclusive.WPF.UI.Properties"
-      xmlns:ext="clr-namespace:Net.Appclusive.WPF.UI.Extensions"
-      xmlns:gl="clr-namespace:System.Globalization;assembly=mscorlib"
       mc:Ignorable="d"
       
       Title="{x:Static p:Resources.Page_Home_Title}" >
