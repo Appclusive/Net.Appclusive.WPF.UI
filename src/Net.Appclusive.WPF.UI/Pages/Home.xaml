@@ -10,7 +10,7 @@
       Title="{x:Static p:Resources.Page_Home_Title}" >
 
     <Page.DataContext>
-        <vm:HomeViewModel></vm:HomeViewModel>
+        <vm:HomeViewModel />
     </Page.DataContext>
 
     <DockPanel>
@@ -37,3 +37,4 @@
         </Grid>
     </DockPanel>
 </Page>
+
