@@ -28,7 +28,7 @@ namespace Net.Appclusive.WPF.UI
     {
         public MainWindow()
         {
-            InitializeComponent();
+           InitializeComponent();
         }
 
         private void OnButtonAboutClick(object sender, RoutedEventArgs e)
