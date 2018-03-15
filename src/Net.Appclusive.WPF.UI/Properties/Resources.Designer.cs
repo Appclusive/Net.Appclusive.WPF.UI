@@ -22,7 +22,7 @@ namespace Net.Appclusive.WPF.UI.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Net.Appclusive.WPF.UI.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Net.Appclusive.WPF.UI.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace Net.Appclusive.WPF.UI.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Net.Appclusive.WPF.UI.Properties {
         /// <summary>
         ///   Looks up a localized string similar to ArbitraryValue1.
         /// </summary>
-        internal static string ArbitraryEnum_Value1 {
+        public static string ArbitraryEnum_Value1 {
             get {
                 return ResourceManager.GetString("ArbitraryEnum_Value1", resourceCulture);
             }
@@ -80,7 +80,7 @@ namespace Net.Appclusive.WPF.UI.Properties {
         ///CH-6300 Zug
         ///Switzerland.
         /// </summary>
-        internal static string Dialog_About__Message {
+        public static string Dialog_About__Message {
             get {
                 return ResourceManager.GetString("Dialog_About__Message", resourceCulture);
             }
@@ -89,7 +89,7 @@ namespace Net.Appclusive.WPF.UI.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Über.
         /// </summary>
-        internal static string Dialog_About__Title {
+        public static string Dialog_About__Title {
             get {
                 return ResourceManager.GetString("Dialog_About__Title", resourceCulture);
             }
@@ -98,7 +98,7 @@ namespace Net.Appclusive.WPF.UI.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Domain.
         /// </summary>
-        internal static string Page_Home_Label__Domain {
+        public static string Page_Home_Label__Domain {
             get {
                 return ResourceManager.GetString("Page_Home_Label__Domain", resourceCulture);
             }
@@ -107,7 +107,7 @@ namespace Net.Appclusive.WPF.UI.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Passwort.
         /// </summary>
-        internal static string Page_Home_Label__Password {
+        public static string Page_Home_Label__Password {
             get {
                 return ResourceManager.GetString("Page_Home_Label__Password", resourceCulture);
             }
@@ -116,7 +116,7 @@ namespace Net.Appclusive.WPF.UI.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Username.
         /// </summary>
-        internal static string Page_Home_Label__Username {
+        public static string Page_Home_Label__Username {
             get {
                 return ResourceManager.GetString("Page_Home_Label__Username", resourceCulture);
             }
@@ -125,7 +125,7 @@ namespace Net.Appclusive.WPF.UI.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Home.
         /// </summary>
-        internal static string Page_Home_Title {
+        public static string Page_Home_Title {
             get {
                 return ResourceManager.GetString("Page_Home_Title", resourceCulture);
             }
@@ -134,7 +134,7 @@ namespace Net.Appclusive.WPF.UI.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Über.
         /// </summary>
-        internal static string Window_MainWindow_Button__About {
+        public static string Window_MainWindow_Button__About {
             get {
                 return ResourceManager.GetString("Window_MainWindow_Button__About", resourceCulture);
             }
@@ -143,7 +143,7 @@ namespace Net.Appclusive.WPF.UI.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Appclusive WPF UI.
         /// </summary>
-        internal static string Window_MainWindow_Title {
+        public static string Window_MainWindow_Title {
             get {
                 return ResourceManager.GetString("Window_MainWindow_Title", resourceCulture);
             }
