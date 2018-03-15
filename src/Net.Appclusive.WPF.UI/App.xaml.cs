@@ -31,6 +31,7 @@ namespace Net.Appclusive.WPF.UI
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
+    // ReSharper disable once RedundantExtendsListEntry
     public partial class App : Application
     {
         public string DefaultDomain { get; private set; }

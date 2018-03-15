@@ -21,6 +21,7 @@ namespace Net.Appclusive.WPF.UI.Pages
     /// <summary>
     /// Interaction logic for Home.xaml
     /// </summary>
+    // ReSharper disable once RedundantExtendsListEntry
     public partial class Home : Page
     {
         public Home()
