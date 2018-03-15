@@ -23,6 +23,7 @@ namespace Net.Appclusive.WPF.UI
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    // ReSharper disable once RedundantExtendsListEntry
     public partial class MainWindow : MetroWindow
     {
         public MainWindow()
