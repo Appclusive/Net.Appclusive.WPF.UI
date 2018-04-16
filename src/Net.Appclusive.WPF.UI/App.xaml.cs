@@ -34,6 +34,7 @@ namespace Net.Appclusive.WPF.UI
     // ReSharper disable once RedundantExtendsListEntry
     public partial class App : Application
     {
+        // DFTODO - remove?
         public string DefaultDomain { get; private set; }
         public string AppclusiveApiBaseUri { get; private set; }
 
