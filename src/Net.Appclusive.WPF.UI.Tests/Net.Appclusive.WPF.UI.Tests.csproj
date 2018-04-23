@@ -155,7 +155,8 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Xaml" />
-    <Reference Include="Telerik.JustMock">
+    <Reference Include="Telerik.JustMock, Version=2018.1.117.2, Culture=neutral, PublicKeyToken=721b6c5bc0326b3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\JustMock\Telerik.JustMock.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
